@@ -45,7 +45,6 @@ posts = [
 ]
 
 
-# Create your views here.
 def index(request):
     template = 'blog/index.html'
     context = {'posts': posts}
